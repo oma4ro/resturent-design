@@ -1,0 +1,34 @@
+*{
+    margin: auto;
+    
+}
+body{
+    /* border: 1px solid blac/k; */
+
+}
+header{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.head{
+    font-family: serif;
+    font-weight: bolder;
+     flex: none;
+     margin-left: 4rem;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.atag{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+    font-weight: bolder;
+
+    
+}
