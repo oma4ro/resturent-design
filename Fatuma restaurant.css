@@ -7,7 +7,7 @@ body{
 
 }
 header{
-    background-color: aqua;
+    background-color: rgb(8, 22, 150);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -31,4 +31,96 @@ nav ul{
     font-weight: bolder;
 
     
+}
+.tast{
+    background-color: #e6834c;
+    height: 200px;
+    
+}
+.the{
+     color:black;
+     font-weight:bold;
+     font-size:xx-large;
+     text-decoration: none;
+     font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.about{
+    border: lightblue 2px solid ;
+    background-color: rgb(192, 243, 226);
+    height: 150px;
+    width: 1000px;
+    margin-top: 40px;
+}
+.container{
+    background-color: #fff;
+    width: full;
+    height: 600px;
+    padding: 12px;
+}
+.banana{
+    font-style: normal;
+    border:white 1px solid ;
+    height: 200px;
+    width: 400px;
+    float: left;
+    margin-top:40px;
+    margin-left: 180px;
+
+}
+.rice{
+    font-style: normal;
+    border: white 1px solid;
+    height: 200px;
+    width: 400px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 180px;
+}
+.cataring{
+    font-style: normal;
+    border:white 1px solid ;
+    height: 200px;
+    width: 400px;
+    float: left;
+    margin-top:40px;
+    margin-left: 180px; 
+
+}
+.contact{
+    font-style: normal;
+    border: white 1px solid;
+    height: 200px;
+    width: 400px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 180px;
+
+}
+
+footer {
+  background-color: #e6834c;
+  display: flex;
+  padding: 1rem;
+  
+
+}
+.footer-ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.footer-li{
+    color: black;
+    list-style: none;
+}
+.atagI{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.copy{
+    flex: none;
 }
